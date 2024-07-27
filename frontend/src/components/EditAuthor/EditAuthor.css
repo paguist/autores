@@ -1,0 +1,56 @@
+.editAuthorForm {
+    background-color: #ccc; 
+    color: #242b24; 
+    display: inline-block;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    
+  }
+  
+  .edit-author label {
+    font-weight: bold;
+  }
+  
+  .edit-author input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    background-color: #1a1d1a; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #242b24; 
+  }
+  
+  .cancel-button {
+    background-color: #dc3545; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333; 
+  }
+  
