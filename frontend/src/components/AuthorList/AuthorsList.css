@@ -1,0 +1,74 @@
+.authors-list-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.add-author-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.add-author-button:hover {
+  background-color: #0056b3;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.author-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.author-quote {
+  font-style: italic;
+  color: #555;
+}
+
+.author-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #658a6e;
+}
+
+.edit-button:hover {
+  background-color: #48584b;
+}
+
+.delete-button {
+  background-color: #742e35;
+}
+
+.delete-button:hover {
+  background-color: #53151b;
+}
